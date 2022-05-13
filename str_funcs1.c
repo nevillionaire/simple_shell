@@ -45,7 +45,7 @@ char *_strcpy(char *dest, const char *src)
  * @dest: Pointer to destination string.
  * @src: Pointer to source string.
  *
- * Return:ng.
+ * Return: Pointer to destination string.
  */
 char *_strcat(char *dest, const char *src)
 {
@@ -65,7 +65,7 @@ char *_strcat(char *dest, const char *src)
 }
 
 /**
- * _strncat - Co where n number
+ * _strncat - Concantenates two strings where n number
  *            of bytes are copied from source.
  * @dest: Pointer to destination string.
  * @src: Pointer to source string.
