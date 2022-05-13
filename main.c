@@ -75,7 +75,7 @@ int execute(char **args, char **front)
 }
 
 /**
- * mainter.
+ * main - Runs a simple UNIX command interpreter.
  * @argc: The number of arguments supplied to the program.
  * @argv: An array of pointers to the arguments.
  *
