@@ -4,7 +4,7 @@
 
 ## Description
 
-This is a simple UNIX command interpreter that replicates functionalities of the simple shell (sh). Additional functions are also included. This program was written entirely in C as a milestone project for Alx-Holberton School.
+This is a simple UNIX command interpreter that replicates functionalities of the simple shell (sh). Additional functions are also included. This program was written entirely in C.
 
 ## Installation
 
@@ -41,4 +41,4 @@ This file contains the details of all the individuals that contributed to this s
 
 ## Credits
 
-All codes written by Valerie Jerono and Neville Mwimah.
+All the codes were written by Valerie Jerono and Neville Mwimah.
