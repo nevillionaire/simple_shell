@@ -76,7 +76,7 @@ int execute(char **args, char **front)
 
 /**
  * mainter.
- * @argc: The number of arguments supplied to the program.
+ * @argc: The number of argume.
  * @argv: An array of pointers to the arguments.
  *
  * Return: The return value of the last executed command.
