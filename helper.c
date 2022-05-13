@@ -94,7 +94,7 @@ char *get_env_value(char *beginning, int len)
 }
 
 /**
- * variable_rble replacement.
+ * variable_replacement - Handles variable replacement.
  * @line: A double pointer containing the command and arguments.
  * @exe_ret: A pointer to the return value of the last executed command.
  *
