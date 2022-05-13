@@ -161,7 +161,7 @@ int shellby_cd(char **args, char __attribute__((__unused__)) **front)
 
 /**
  * shellby_help ation about shellby builtin commands.
- * @args: An arraents.
+ * @args: An arrae
  * @front: A pointer ginning of args.
  *
  * Return: If an error occurs - -1.
