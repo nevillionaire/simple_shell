@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-/* printf() displays :string inside quotation*/
+/* printf() displays the string inside quotation*/
 
 int main(void)
-/* integerin*/
+/* integer main*/
 
 {
-/*printing world*/
+/*printing hello world*/
 
 printf("Hello, World!");
 return (0);
