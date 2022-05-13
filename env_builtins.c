@@ -88,7 +88,7 @@ int shellby_setenv(char **args, char __attribute__((__unused__)) **front)
 }
 
 /**
- * shellby_unsetenv - an environmental variable from the PATH.
+ * shellby_unsetenv - Deletes an environmental variable from the PATH.
  * @args: An array of arguments passed to the shell.
  * @front: A double pointer to the beginning of args.
  * Description: args[1] is the PATH variable to remove.
