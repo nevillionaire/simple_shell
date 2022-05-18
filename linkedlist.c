@@ -81,9 +81,9 @@ list_t *add_node_end(list_t **head, char *dir)
  * free_alias_list - Frees a alias_t linked list.
  * @head: THe head of the alias_t list.
  */
-void _alias_list(alias_t *head)
+void free_alias_list(alias_t *head)
 {
-	a *next;
+	alias_t *next;
 
 	while (head)
 	{
@@ -111,4 +111,3 @@ void free_list(list_t *head)
 		head = next;
 	}
 }
-
