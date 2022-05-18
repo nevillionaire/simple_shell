@@ -94,9 +94,8 @@ void help_help(void)
 	char *msg = "help: help\n\tSee all possible Shellby builtin commands.\n";
 
 	write(STDOUT_FILENO, msg, _strlen(msg));
-	= "\n      help [BUILTIN NAME]\n\tSee specific information on each ";
+	msg = "\n      help [BUILTIN NAME]\n\tSee specific information on each ";
 	write(STDOUT_FILENO, msg, _strlen(msg));
-	= "builtin command.\n";
+	msg = "builtin command.\n";
 	write(STDOUT_FILENO, msg, _strlen(msg));
 }
-
