@@ -148,10 +148,10 @@ char *error_2_syntax(char **args)
 	int len;
 
 	hist_str = _itoa(hist);
-	if (tr)
+	if (!hist_str)
 		return (NULL);
 
-	 = _strlen(name) + _strlen(hist_str) + _strlen(args[0]) + 33;
+	len = _strlen(name) + _strlen(hist_str) + _strlen(args[0]) + 33;
 	error = malloc(sizeof(char) * (len + 1));
 	if (!error)
 	{
@@ -169,4 +169,3 @@ char *error_2_syntax(char **args)
 	free(hist_str);
 	return (error);
 }
-
