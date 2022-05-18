@@ -128,8 +128,8 @@ list_t *get_path_dir(char *path)
 	{
 		if (add_node_end(&head, dirs[index]) == NULL)
 		{
-			_list(head);
-			e(dirs);
+			free_list(head);
+			free(dirs);
 			return (NULL);
 		}
 	}
@@ -138,4 +138,3 @@ list_t *get_path_dir(char *path)
 
 	return (head);
 }
-
