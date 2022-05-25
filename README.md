@@ -1,4 +1,4 @@
-# simple_shell
+# simple_shell <img src="https://badges.pufler.dev/visits/nevillionaire/simple_shell?style=flat-square&color=red&logo=github&a=0">
 
 # A simple C shell project
 
